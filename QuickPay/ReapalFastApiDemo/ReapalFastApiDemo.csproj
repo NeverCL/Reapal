@@ -190,6 +190,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="联调虚拟账号.txt" />
     <Content Include="融宝支付快捷支付API接口-同卡进出版文档V1.1.docx" />
   </ItemGroup>
   <ItemGroup />
