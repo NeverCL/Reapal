@@ -195,6 +195,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="融宝网银新接口文档2016v1.0.docx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
