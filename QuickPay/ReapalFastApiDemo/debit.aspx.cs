@@ -49,7 +49,7 @@ namespace ReapalFastApiDemo
             dic.Add("member_id", this.member_id.Text);
             dic.Add("terminal_type", "mobile");
             dic.Add("terminal_info", "dddsfffddd");
-            dic.Add("member_ip", ReapalSubmit.getIp());
+            dic.Add("member_ip", "192.168.2.1");
             dic.Add("seller_email", "820061154@qq.com");
 
             //执行提交请求，得到返回结果
