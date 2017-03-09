@@ -17,7 +17,7 @@ namespace ReapalFastApiDemo
             m1.InnerText = merchant_id+"====="+ encryptData + "====="+ encryptkey;
 
 
-
+            // 私钥解密
             string itrus001pfx = HttpContext.Current.Server.MapPath("cert/itrus001.pfx");
 
 
