@@ -1,0 +1,12 @@
+﻿
+php开发过程中，需要证书转换
+
+
+
+//公钥cer证书转换成pem
+openssl x509 -in itrus001.cer -out itrus001.pem
+
+
+//私钥pfx证书转换成pem
+openssl pkcs12 -in itrus001.pfx -nodes -out itrus001_pri.pem
+
